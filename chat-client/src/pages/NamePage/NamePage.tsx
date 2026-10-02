@@ -19,8 +19,7 @@ export const NamePage = ({ onSetName }: Props) => {
           onSetName(draftName.trim());
         }
         e.preventDefault();
-      }
-      }
+      }}
       >
         <input
           type="text"

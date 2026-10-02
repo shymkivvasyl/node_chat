@@ -38,9 +38,7 @@ export const MessageList = ({ messages, name }: Props) => {
             <p className="message--list__time">{formatTime(message.timestamp)}</p>
           </div>
         )
-      }
-      )
-      }
+      })}
       <div ref={bottomRef} />
     </div >
   )
